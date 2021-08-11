@@ -11,6 +11,10 @@
     "seed": "node seeders/seeds.js",
     "heroku-postbuild": "npm run seed"
   },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JJLindsey/pizza-hunt.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,6 +24,6 @@
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.1.5",
-    "jest": "^25.3.0"
+    "jest": "^25.5.4"
   }
 }
