@@ -5,15 +5,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seeds.js",
-    "heroku-postbuild": "npm run seed"
+    "start": "node server.js"
   },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/JJLindsey/pizza-hunt.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJLindsey/pizza-hunt.git"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +17,5 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.13.5"
-  },
-  "devDependencies": {
-    "@shelf/jest-mongodb": "^1.1.5",
-    "jest": "^25.5.4"
   }
 }
